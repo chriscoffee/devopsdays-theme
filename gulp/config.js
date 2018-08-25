@@ -1,10 +1,10 @@
-var src = '.';
-var build = 'build';
-var development = 'build/development';
-var production = 'build/production';
-var srcAssets = '../static/';
-var developmentAssets = 'build/development';
-var productionAssets = 'build/production/static';
+const src = '.';
+const build = 'build';
+const development = 'build/development';
+const production = 'build/production';
+const srcAssets = '../static/';
+const developmentAssets = 'build/development';
+const productionAssets = 'build/production/static';
 
 module.exports = {
     browsersync: {

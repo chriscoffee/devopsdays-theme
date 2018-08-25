@@ -5,13 +5,12 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps');
 
     var scripts = [
-      'bower_components/jquery/dist/jquery.js',
-      'bower_components/tether/dist/js/tether.js',
-      'bower_components/bootstrap/dist/js/bootstrap.js',
-      'bower_components/jquery-oembed-all/jquery.oembed.js',
-      'bower_components/bootstrap-sortable/Scripts/bootstrap-sortable.js',
-      'bower_components/moment/moment.js',
-      'bower_components/jssocials/dist/jssocials.js',
+      'node_modules/jquery/dist/jquery.js',
+      'node_modules/tether/dist/js/tether.js',
+      'node_modules/bootstrap/dist/js/bootstrap.js',
+      'node_modules/bootstrap-sortable/Scripts/bootstrap-sortable.js',
+      'node_modules/moment/moment.js',
+      'node_modules/jssocials/dist/jssocials.js',
       'static/js/devopsdays.js'
     ]
 
